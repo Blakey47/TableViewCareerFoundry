@@ -12,7 +12,8 @@
 		A798AB241F72524000942333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A798AB221F72524000942333 /* Main.storyboard */; };
 		A798AB261F72524000942333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A798AB251F72524000942333 /* Assets.xcassets */; };
 		A798AB291F72524000942333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A798AB271F72524000942333 /* LaunchScreen.storyboard */; };
-		A798AB311F725B2500942333 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A798AB301F725B2500942333 /* DataItem.swift */; };
+		A798AB311F725B2500942333 /* ShoppingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A798AB301F725B2500942333 /* ShoppingData.swift */; };
+		A798AB351F72677500942333 /* Shopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = A798AB341F72677500942333 /* Shopping.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +24,8 @@
 		A798AB251F72524000942333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A798AB281F72524000942333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A798AB2A1F72524000942333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A798AB301F725B2500942333 /* DataItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
+		A798AB301F725B2500942333 /* ShoppingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingData.swift; sourceTree = "<group>"; };
+		A798AB341F72677500942333 /* Shopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				A798AB1E1F72524000942333 /* AppDelegate.swift */,
 				A798AB201F72524000942333 /* TableViewController.swift */,
-				A798AB301F725B2500942333 /* DataItem.swift */,
+				A798AB301F725B2500942333 /* ShoppingData.swift */,
+				A798AB341F72677500942333 /* Shopping.swift */,
 				A798AB221F72524000942333 /* Main.storyboard */,
 				A798AB251F72524000942333 /* Assets.xcassets */,
 				A798AB271F72524000942333 /* LaunchScreen.storyboard */,
@@ -140,7 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A798AB211F72524000942333 /* TableViewController.swift in Sources */,
-				A798AB311F725B2500942333 /* DataItem.swift in Sources */,
+				A798AB351F72677500942333 /* Shopping.swift in Sources */,
+				A798AB311F725B2500942333 /* ShoppingData.swift in Sources */,
 				A798AB1F1F72524000942333 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
