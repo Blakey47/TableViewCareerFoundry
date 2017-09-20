@@ -10,14 +10,10 @@ import UIKit
 
 class DataItem {
     var title: String
-    var image: UIImage?
+    var price: Double
     
-    init(title: String, imageName: String?) {
+    init(title: String, price: Double) {
         self.title = title
-        if let imageName = imageName {
-            if let img = UIImage(named: imageName) {
-                image = img
-            }
-        }
+        self.price = price
     }
 }

@@ -8,20 +8,29 @@
 
 import UIKit
 
-class TableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class TableViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
+    var items = [DataItem]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        tableView.delegate = self
+        tableView.dataSource = self
+        
+        self.automaticallyAdjustsScrollViewInsets = false
+        
+        navigationItem.rightBarButtonItem = editButtonItem
+        
+        tableView.allowsSelectionDuringEditing = true
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    
 
 
 }
+
 
