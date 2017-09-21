@@ -13,19 +13,19 @@ struct ShoppingList {
     
     
     static var foodItems: [Shopping] = [
-        Shopping(items: "Bread", price: "£\(arc4random_uniform(3))"),
-        Shopping(items: "Peanuts", price: "£\(arc4random_uniform(3))"),
-        Shopping(items: "Pasta", price: "£\(arc4random_uniform(3))"),
-        Shopping(items: "Biscuits", price: "£\(arc4random_uniform(3))"),
-        Shopping(items: "Chicken", price: "£\(arc4random_uniform(3))"),
-        Shopping(items: "Potatoes", price: "£\(arc4random_uniform(3))"),
-        Shopping(items: "Cheese", price: "£\(arc4random_uniform(3))")
+        Shopping(items: "Bread", price: "£\(arc4random_uniform(3) + 1)"),
+        Shopping(items: "Peanuts", price: "£\(arc4random_uniform(3) + 1)"),
+        Shopping(items: "Pasta", price: "£\(arc4random_uniform(3) + 1)"),
+        Shopping(items: "Biscuits", price: "£\(arc4random_uniform(3) + 1)"),
+        Shopping(items: "Chicken", price: "£\(arc4random_uniform(3) + 1)"),
+        Shopping(items: "Potatoes", price: "£\(arc4random_uniform(3) + 1)"),
+        Shopping(items: "Cheese", price: "£\(arc4random_uniform(3) + 1)")
     ]
     
     static var drinkItems: [Shopping] = [
-        Shopping(items: "Water", price: "£\(arc4random_uniform(3))"),
-        Shopping(items: "Milk", price: "£\(arc4random_uniform(3))"),
-        Shopping(items: "Soda", price: "£\(arc4random_uniform(3))"),
-        Shopping(items: "Juice", price: "£\(arc4random_uniform(3))")
+        Shopping(items: "Water", price: "£\(arc4random_uniform(3) + 1)"),
+        Shopping(items: "Milk", price: "£\(arc4random_uniform(3) + 1)"),
+        Shopping(items: "Soda", price: "£\(arc4random_uniform(3) + 1)"),
+        Shopping(items: "Juice", price: "£\(arc4random_uniform(3) + 1)")
     ]
 }
